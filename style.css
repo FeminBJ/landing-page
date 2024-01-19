@@ -1,0 +1,101 @@
+body
+{
+    margin: 0;
+    background-image: url("./assets/images/wepik-hand-drawn-nature-amp-mountains-zoom-background-2024011815311381t8.png");
+    background-size:cover;
+    width: 100%;
+    color: rgb(242, 241, 239);
+}
+.logo
+{
+    height: 30px;
+    border-radius: 50%;
+
+}
+.comname
+{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 28px;
+    
+}
+.container
+{
+   margin: 30px; 
+   display: flex;
+   flex-direction: row;
+   font-family: 'Salsa';
+
+}
+.logo-name
+{
+    flex: 6;
+}
+.Home
+{
+    flex:1;
+    color:antiquewhite;
+    font-weight: 700;
+
+}
+.d
+{
+    flex:1;
+    color:antiquewhite;
+    font-weight: 700;
+}
+.f
+{
+    flex: 1;
+    color: antiquewhite;
+    font-weight: 700;
+}
+.a
+{
+    color:antiquewhite;
+    font-weight: 700;
+}
+.search-button
+{
+    height: 30px;
+    width: 30px;
+}
+.search-box
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.search-bar
+{
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 20px;
+    background: antiquewhite;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input
+{
+   background: transparent;
+   outline: 0;
+   outline: 0;
+   flex:1;
+   border:0;
+   font-family: 'Monteserrat';
+   font-size: 1em;
+}
+.search-bar button
+{
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Enter-tag
+{
+    font-size: 100px;
+    font-weight: 800;
+}
